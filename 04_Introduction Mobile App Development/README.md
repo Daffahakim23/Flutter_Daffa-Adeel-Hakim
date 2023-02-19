@@ -16,12 +16,12 @@ jenis software
 Pengembangan Software
 Bahasa pemrograman
 Rangkaian teks yang digunakan untuk memberi perintah pada sistem
-  a. Game Developer
-      C++
-  b. Web Devloper
-      HTML, CSS, JavaScript
-  c. Mobile
-      Android(Java, Kotlin), IOS(Swift, objective C)
+a. Game Developer
+   C++
+b. Web Devloper
+   HTML, CSS, JavaScript
+c. Mobile
+   Android(Java, Kotlin), IOS(Swift, objective C)
       
 Compiler
 Adalah sebuah program yang digunakan komputer untuk menterjemahkan bahasa pemrograman kepada sistem komputer cara kerja nya merubah bahasa pemrograman untuk mudah dikenali oleh komputer
