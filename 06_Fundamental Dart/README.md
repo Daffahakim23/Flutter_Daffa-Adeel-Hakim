@@ -1,5 +1,4 @@
-DART
-Bahasa pemrograman yang dirangcang untuk membuat aplikasi agar dapat berjalan cepat dan dapat berkerja pada Front End Web, Desktop, dan Mobile
+Dart adalah bahasa pemrograman yang dirangcang untuk membuat aplikasi agar dapat berjalan cepat dan dapat berkerja pada Front End Web, Desktop, dan Mobile
 
 Kelebihan DART
 1. Type Safe
