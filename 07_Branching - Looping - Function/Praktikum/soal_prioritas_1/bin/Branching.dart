@@ -1,5 +1,8 @@
+import 'dart:io';
+
 void main() {
-  var nilai = 75;
+  stdout.write('Masukkan sebuah bilangan : ');
+  int nilai = int.parse(stdin.readLineSync()!);
   if (nilai > 70) {
     print('Nilai A');
   } else if (nilai > 40) {
