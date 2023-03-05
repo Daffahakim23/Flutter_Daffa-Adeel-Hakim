@@ -1,7 +1,7 @@
 OOP
--program disusun dalam bentuk abstraksi object.
--keuntungan : mudah di troubleshoot dan mudah di digunakan ulang.
--bahasa : Dart, Java, Python dll.
+  - program disusun dalam bentuk abstraksi object.
+  - keuntungan : mudah di troubleshoot dan mudah di digunakan ulang.
+  - bahasa : Dart, Java, Python dll.
 
 Komponen
 1. class 
