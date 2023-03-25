@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pertama/page/ListviewPage.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:pertama/page/Soal_Eksplorasi.dart';
 
 class sp1 extends StatefulWidget {
   const sp1({super.key, required String title});
@@ -73,7 +74,20 @@ class _sp1 extends State<sp1> {
                         builder: (context) => const LstVwPg(title: '')),
                   );
                 },
-                child: const Text('Go To ListView'))
+                child: const Text('Go To ListView')),
+            const SizedBox(
+              height: 10,
+            ),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    // DetailPage adalah halaman yang dituju
+                    MaterialPageRoute(
+                        builder: (context) => const MyFlutterApp(title: '')),
+                  );
+                },
+                child: const Text('Go To Soal Eksplorasi')),
           ],
         ),
         // backgroundColor: Colors.black26,
