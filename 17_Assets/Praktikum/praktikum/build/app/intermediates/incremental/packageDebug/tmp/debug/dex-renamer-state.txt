@@ -1,0 +1,4 @@
+#Mon Mar 27 22:44:06 ICT 2023
+base.0=C\:\\Users\\HP\\Documents\\Alterra-Flutter\\Flutter_Daffa-Adeel-Hakim\\17_Assets\\Praktikum\\praktikum\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
