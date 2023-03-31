@@ -5,4 +5,5 @@ Flutter layout adalah proses mengatur tampilan aplikasi Flutter dengan menempatk
   4. Expanded: Widget yang memungkinkan widget di dalamnya untuk memperluas ke ruang yang tersedia.
   5. ListView: Widget yang memungkinkan widget lainnya untuk ditampilkan dalam daftar bergulir.
   6. GridView: Widget yang memungkinkan widget lainnya untuk ditampilkan dalam grid.
+
 Selain widget-widget tersebut, Flutter juga memiliki fitur animasi dan transformasi yang dapat digunakan untuk menganimasikan tampilan dan mengubah ukuran dan bentuk widget. Dengan penggunaan widget-widget dan fitur-fitur ini, Flutter memungkinkan pengembang untuk membuat tampilan aplikasi yang menarik dan interaktif.
