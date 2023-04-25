@@ -7,7 +7,6 @@ void main() {
     final nameController = TextEditingController();
     final phoneController = TextEditingController();
 
-    // Build ContactWidget
     await tester.pumpWidget(MaterialApp(
       home: ContactWidget(
         nameController: nameController,
@@ -16,21 +15,20 @@ void main() {
       ),
     ));
 
-    // Enter text into name field
+    // input data nama 
     await tester.enterText(
         find.widgetWithText(InputContactWidget, 'Nama'), 'John Doe');
 
-    // Enter text into phone field
+    // input No Telepopn
     await tester.enterText(
         find.widgetWithText(InputContactWidget, 'Nomor'), '123456789');
 
-    // Tap submit button
+    // Submit
     await tester.tap(find.widgetWithText(ElevatedButton, 'Submit'));
 
-    // Rebuild the widget after the state has changed
     await tester.pump();
 
-    // Verify that the text has been submitted
+    // verifikasi
     expect(nameController.text, 'John Doe');
     expect(phoneController.text, '123456789');
   });
